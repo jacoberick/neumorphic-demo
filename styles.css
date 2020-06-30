@@ -1,0 +1,38 @@
+body {
+  background-color: #0C6257;
+}
+body #pressMe {
+  color: #fff;
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+  margin-top: 6rem;
+  font-size: 5rem;
+}
+body .button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  width: 200px;
+  background-color: #0C6257;
+  border: none;
+  box-shadow: 9px 9px 16px rgba(6, 50, 45, 0.5), -9px -9px 16px rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+}
+body .button:active {
+  box-shadow: inset 9px 9px 16px rgba(6, 50, 45, 0.5), inset -9px -9px 16px rgba(255, 255, 255, 0.1);
+}
+body .button:focus {
+  outline: none;
+}
+body .button .smiley {
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+  font-size: 3rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
